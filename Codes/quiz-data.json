@@ -1,0 +1,258 @@
+{
+    "artciles": [
+        {
+            "quiztitle":"Quiz for Ltaches and FlipFlops",
+            "containers":"5"
+        },
+        {
+            "q": " The sequential circuit is also called?",
+            "option": [
+                "Flip-flop",
+ 				"Latch",
+				" Strobe",
+				"Adder",
+            ],
+            "answer": "Latch",
+            "description": "The sequential circuit is also called a latch because both are a memory cell, which are capable of storing one bit of information" },
+        {
+            "q": "How many types of sequential circuits are?",
+            "option": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": "2",
+            "description": " There are two type of sequential circuits viz., (i) synchronous or clocked and (ii) asynchronous or unclocked. Synchronous Sequential Circuits are triggered in the presence of a clock signal, whereas, Asynchronous Sequential Circuits function in the absence of a clock signal."
+        },
+        {
+            "q": " What is a trigger pulse?",
+            "option": [
+                "A pulse that starts a cycle of operation",
+                "A pulse that reverses the cycle of operation",
+                "A pulse that prevents a cycle of operation",
+                "A pulse that enhances a cycle of operation"
+            ],
+            "answer":  "A pulse that starts a cycle of operation",
+            "description":"Trigger pulse is defined as a pulse that starts a cycle of operation."
+        },
+        {
+            "q": "In SR flip-flop, input labeled 'S' stands for",
+            "option": [
+                "Systematic",
+				"Static",
+				"Set",
+				"Stable"
+		 ],
+            "answer": "Set",
+            "description": "SR stands for set reset Flip-flop"
+        },
+        {
+            "q": "Latches constructed with NOR and NAND gates tend to remain in the latched condition due to which configuration feature?",
+            "option": [
+                "Low input voltages",
+				"Synchronous operation",
+				"Gate impedance",
+				"Cross coupling"
+            ],
+            "answer": "Cross coupling",
+            "description":" Latch is a type of bistable multivibrator having two stable states. Both inputs of a latch are directly connected to the other’s output. Such types of structure is called cross coupling and due to which latches remain in the latched condition."
+        },
+        {
+            "q": "Which of the following is correct for a gated D-type flip-flop?",
+            "option": [
+               "The Q output is either SET or RESET as soon as the D input goes HIGH or LOW",
+			   "The output complement follows the input when enabled",
+			"Only one of the inputs can be HIGH at a time",
+			 "The output toggles if one of the inputs is held HIGH"
+			            ],
+			            "answer": "The Q output is either SET or RESET as soon as the D input goes HIGH or LOW",
+            "description":  "In D flip flop, when the clock is high then the output depends on the input otherwise reminds previous output. In a state of clock high, when D is high the output Q also high, if D is ‘0’ then output is also zero. Like SR flip-flop, the D-flip-flop also have an invalid state at both inputs being 1."
+        },
+        {
+            "q": " The circuits of NOR based S-R latch classified as asynchronous sequential circuits, why?",
+               "option": [
+             "Because of inverted outputs",
+ 			"Because of triggering functionality",
+ 			"Because of cross-coupled connection",
+ 			"Because of inverted outputs & triggering functionality",
+            ],
+            "answer": "Because of cross-coupled connection",
+            "description": "The cross-coupled connections from the output of one gate to the input of the other gate constitute a feedback path. For this reason, the circuits of NOR based S-R latch classified as asynchronous sequential circuits. Moreover, they are referred to as asynchronous because they function in the absence of a clock pulse."        },
+        {
+            "q": " D flip-flop is a circuit having",
+            "option": [
+                "2NAND gates",
+                "3NAND gates",
+                "4NAND gates",
+                "5NAND gates"
+            ],
+            "answer": "4NAND gates",
+            "description": "from the circuit diagram"
+        }
+        {
+            "q": "In delay flip-flop, _______ after the propagation delay.",
+            "option": [
+               "Input follows input",
+				"Input follows output",
+				"Output follows input",
+				"Output follows output"
+            ],
+            "answer": "Output follows input",
+            "description": "DIRECT ANSWER"
+        }
+        {
+            "q": "Which is the prohibited state/ condition in S-R latch and needs to be avoided due to unpredictable nature of output?",
+            "option": [
+          "S = R = 0",
+			 "S = 0, R = 1",
+			" S = 1, R = 0",
+			" S = R = 1"
+		],
+
+            "answer": " S = R = 1",
+            "description": "from the truthtable it is intended",
+        }
+        {
+            "q": "A basic S-R flip-flop can be constructed by cross-coupling of which basic logic gates?",
+            "option": [
+               "AND or OR gates",
+				" XOR or XNOR gates",
+				" NOR or NAND gates",
+				" AND or NOR gates"
+            ],
+            "answer":" NOR or NAND gates",
+            "description": "The basic S-R flip-flop can be constructed by cross coupling of NOR or NAND gates. Cross coupling means the output of second gate is fed to the input of first gate and vice-versa."
+        },
+        {
+            "q": "A latch is an example of a",
+            "option": [
+               "Monostable multivibrator",
+				"Astable multivibrator",
+				"Bistable multivibrator",
+				"555 timer"
+            ],
+            "answer": "Bistable multivibrator",
+            "description":  "A latch is an example of a bistable multivibrator. A Bistable multivibrator is one in which the circuit is stable in either of two states. It can be flipped from one state to the other state and vice-versa.",
+        },
+        {
+            "q": "When a high is applied to the Set line of an SR latch, then",
+            "option": [
+               "Q output goes high",
+				"Q’ output goes high",
+				"Q output goes low",
+				"Both Q and Q’ go high", 
+            ],
+            "answer":  "Q output goes high",
+            "description": "S input of a SR latch is directly connected to the output Q. So, when a high is applied Q output goes high and Q’ low."        
+        },
+        {
+            "q": "Latch together with a triggering circuit form a",
+            "option": [
+                "inductor",
+				"flip flop",
+				"timing generator",
+				"sine generator"
+            ],
+            "answer": "flip flop",
+            "description":  "direct answer",
+        },
+        {
+            "q": "When both inputs of a J-K flip-flop cycle, the output will ___",
+                 "option": [
+             "Be invalid",
+				"Change",
+				"Not change",
+				"Toggle" 
+            ],
+            "answer": "Not change",
+            "description": "After one cycle the value of each input comes to the same value. Eg: Assume J=0 and K=1. After 1 cycle, it becomes as J=0->1->0(1 cycle complete) and K=1->0->1(1 cycle complete). The J & K flip-flop has 4 stable states: Latch, Reset, Set and Toggle.",   
+        },
+     
+        {
+            "q": "T flip- flop finds its application  in the form of frequency division since it divides the clock frequency by ________",
+                "option": [
+                	 "2",
+					" 4",
+					" 2n - 1",
+					"4n - 1"
+				],
+            "answer": " 2",
+            "description": "Refer FlipFlops theory"
+        },
+        
+        
+        {
+            "q": "The basic latch consists of _____",
+            "option": [
+                "Two inverters",
+				"Two comparators",
+				"Two amplifiers",
+				"Two adders"           
+         ],
+            "answer": "Two inverters",
+            "description": "The basic latch consists of two inverters. It is in the sense that if the output Q = 0 then the second output Q’ = 1 and vice versa.",
+        },
+        {
+            "q": "When both inputs of SR latches are high, the latch goes",
+            "option": [
+               "Unstable",
+				"Stable",
+				"Metastab",
+				"Bistable"
+            ],
+            "answer":"Metastab",
+            "description": "When both gates are identical and this is “metastable”, and the device will be in an undefined state for an indefinite period.",
+        },
+        {
+            "q": " In master slave circuit, to maintain most of circuit charge we relay on",
+            "option": [
+                "bypass capacitor",
+				"node capacitor",
+				"input capacitor",
+				"load capacitor"
+            ],
+            "answer": "node capacitor",
+            "description": "Refer master slave ckts"
+        }
+    ]
+},
+ {
+            "q": " D flip flop tracks the",
+            "option": [
+                "input",
+				"output",
+				"source",
+				"ground"
+            ],
+            "answer": "input",
+            "description": "direct answer "
+        }
+    ]
+},
+ {
+            "q": "How many flip-flops are required to produce a divide-by-128 device?",
+            "option": [
+                "1",
+				"4",
+				"6",
+				"7"
+            ],
+            "answer": "7",
+            "description": "direct answer "
+        }
+    ]
+},
+ {
+            "q": "Which statement BEST describes the operation of a negative-edge-triggered D flip-flop?",
+            "option": [
+                "The logic level at the D input is transferred to Q on NGT of CLK.",
+	"The Q output is ALWAYS identical to the CLK input if the D input is HIGH.",
+	"The Q output is ALWAYS identical to the D input when CLK = PGT.",
+	"The Q output is ALWAYS identical to the D input."
+            ],
+            "answer": "The logic level at the D input is transferred to Q on NGT of CLK.",
+            "description": "refer flipflops theory"
+        }
+    ]
+}
